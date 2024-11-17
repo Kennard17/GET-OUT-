@@ -1,54 +1,54 @@
-/* Menghapus margin dan padding default dari semua elemen */
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Menambahkan box-sizing untuk menghindari masalah layout */
+  box-sizing: border-box; 
 }
 
-/* Gaya untuk body */
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #931314;
-  height: 100vh; /* Mengatur tinggi body agar 100% dari viewport */
-  display: flex; /* Menggunakan flexbox untuk penataan elemen */
-  flex-direction: column; /* Mengatur arah elemen menjadi kolom */
-  align-items: center; /* Menyejajarkan elemen secara horizontal ke tengah */
+  height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
 }
 
-/* Gaya untuk gambar bear */
+
 .image {
-  width: 50%%; /* Lebar gambar 100% dari elemen induk */ /* Tinggi gambar 1/3 dari tinggi viewport */
+  width: 50%%; 
   position: relative;
-  top: -275px; /* Posisi relatif untuk pengaturan gambar */
+  top: -275px; 
 }
 
 .image img {
-  width: 100%; /* Gambar memenuhi lebar elemen induknya */
-  height: 100%; /* Gambar memenuhi tinggi elemen induknya */
+  width: 100%; 
+  height: 100%; 
   object-fit: cover;
-  top: -250px; /* Memastikan gambar mengisi elemen tanpa distorsi */
+  top: -250px; 
 }
 
-/* Gaya untuk wrapper */
+
 .container {
-  width: 100%; /* Lebar kontainer 100% dari elemen induknya */ /* Tinggi kontainer 2/3 dari tinggi viewport */
-  display: flex; /* Menggunakan flexbox untuk penataan elemen */
-  justify-content: center; /* Menyejajarkan konten secara horizontal */
+  width: 100%; 
+  display: flex; 
+  justify-content: center; 
   align-items: center;
   position: relative;
-  top: -150px; /* Menyejajarkan konten secara vertikal */
+  top: -150px; 
 }
 
-/* Gaya untuk wrapper */
+
 .wrapper {
   justify-content: center;
   align-items: center;
 }
 
-/* Gaya untuk h2 */
+
 h2 {
-  color: #000000; /* Warna teks putih */
-  font-weight: 900; /* Berat font tebal */
-  font-size: 1.2rem; /* Ukuran font untuk h2 */
+  color: #000000; 
+  font-weight: 900; 
+  font-size: 1.2rem; 
   align-items: center;
 }
